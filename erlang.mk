@@ -32,7 +32,7 @@ endif
 
 # Core configuration.
 
-PROJECT ?= $(notdir $(CURDIR))
+PROJECT ?= $(notdir $(shell pwd))
 PROJECT := $(strip $(PROJECT))
 
 PROJECT_VERSION ?= rolling
